@@ -30,7 +30,7 @@ O processador opera com um conjunto reduzido de instruções, identificadas pelo
 | Opcode | Mnemônico | Descrição |
 | :--- | :--- | :--- |
 | **00** | `DATA` | Carrega um valor imediato para um registrador. |
-| **11** | `MOV` | Move dados entre registradores (ex: A -> B). |
+| **11** | `MOV` | Manipula e opera dados entre registradores (ex: A + B -> C). |
 | **10** | `STORE` | Armazena valor na memória (Modos: Direto ou via Registrador). |
 | **10** | `LOAD` | Carrega valor da memória para um registrador. |
 
